@@ -18,7 +18,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showhide": "true"
   },
   "backend": {
     "imageid": "ubuntu:2004"
