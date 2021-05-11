@@ -30,6 +30,6 @@
     },
     "backend": {
         "port": 8080,
-        "dockerimage": "kubernetes-cluster-running:1.21"
+        "dockerimage": "kubernetes-cluster-highmem-running:1.21"
     }
 }
