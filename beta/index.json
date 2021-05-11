@@ -1,5 +1,5 @@
 {
-    "title": "Kubernetes 1.21 Playground",
+    "title": "Kubernetes 1.21 High Memory",
     "description": "Use Kubernetes in a hosted sandboxed interactive environment",
     "details": {
         "steps": [
