@@ -1,4 +1,4 @@
-This is a Kubernetes playground, a safe place designed for experimenting, exploring and learning Kubernetes. The playground has a pre-configured Kubernetes cluster with two nodes, one configured as the Control Plane node and a second worker node.
+This is a Kali playground, a safe place designed for experimenting, exploring and learning Kali Linux.
 
 #### What are playgrounds?
 
