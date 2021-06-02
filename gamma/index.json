@@ -30,6 +30,6 @@
     },
     "backend": {
         "port": 8080,
-        "dockerimage": "kali:2101"
+        "dockerimage": "kali:2021.1"
     }
 }
