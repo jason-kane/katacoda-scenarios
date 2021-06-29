@@ -26,7 +26,8 @@
             "/socket.io/socket.io.js",
             "/javascripts/term.js",
             "/javascripts/terminal-application.js"
-        ]
+        ],
+        "showide": "true"  
     },
     "backend": {
         "port": 8080,
