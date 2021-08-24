@@ -1,4 +1,4 @@
-This sandbox provides an environment for you to learn and explore Django (3.0).
+This sandbox provides an environment for you to learn and explore Django 3.0
 
 #### What are sandboxes?
 

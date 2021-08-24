@@ -14,6 +14,12 @@ Apply migrations:
 
 `python manage.py migrate`{{execute}}
 
+Update ALLOWED_HOSTS:
+
+https://docs.djangoproject.com/en/3.2/ref/settings/#allowed-hosts
+
+`sed -i 's/ALLOWED_HOSTS = \[\]/ALLOWED_HOSTS = \[".environments.katacoda.com"\]/g' mysite/settings.py`{{execute}}
+
 Run your project:
 
 `python manage.py runserver 0.0.0.0:8000`{{execute}}
