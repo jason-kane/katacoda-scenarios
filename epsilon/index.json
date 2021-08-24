@@ -1,0 +1,48 @@
+{
+    "id": "playground",
+    "pathwayId": "django",
+    "pathwayTitle": "Django",
+    "icon": "fa-python",
+    "title": "Django Sandbox",
+    "description": "Explore Django in a sandboxed environment",
+    "authenticated": false,
+    "details": {
+        "steps": [
+            {
+                "title": "Hello World",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {"file": "settings.json", "target": "/opt/.katacodacode/user-data/User/"}
+            ]
+        }
+    },
+    "environment": {
+        "hideintro": false,
+        "hidefinish": false,
+        "hidesidebar": false,
+        "uilayout": "vscode-terminal-split",
+        "uimessage1": "\u001b[32mRun `manage shell` to execute a python shell.\u001b[m\r\n",
+        "uidependencies": [
+            "/socket.io/socket.io.js",
+            "/javascripts/term.js",
+            "/js/vendor/ace/ace.js",
+            "/js/editor.js",
+            "/javascripts/terminal-application.js",
+            "/javascripts/editor-terminal-application.js",
+            "/javascripts/sync-editor-to-container.js"
+        ]
+    },
+    "backend": {
+        "port": 8000,
+        "imageid": "django:3.0"
+    }
+}

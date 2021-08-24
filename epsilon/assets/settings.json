@@ -1,0 +1,19 @@
+{
+    "workbench.startupEditor": "welcomePage",
+    "editor.minimap.enabled": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "workbench.enableExperiments": false,
+    "window.autoDetectColorScheme": false,
+    "workbench.colorCustomizations": {},
+    "workbench.colorTheme": "Default Dark+",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "semanticHighlighting": true
+    },
+    "files.exclude": {
+        "**/.*": true
+    }
+}
