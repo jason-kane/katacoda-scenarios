@@ -1,5 +1,5 @@
 {
-  "pathwayTitle": "jason-kane",
+  "pathwayTitle": "tensorflow-pneumonia",
   "title": "Convert a TensorFlow Pneumonia Classifier to TensorFlow Lite with Quantization",
   "description": "Learn how to quantize your model without losing precision",
   "difficulty": "Beginner",
@@ -41,8 +41,8 @@
     "backendTarget": "client"
   },
   "gitBased": true,
-  "id": "getting-started-tensorflow-lite/convert-pneumonia-model-with-tensorflow-lite",
-  "pathwayId": "jason-kane",
+  "id": "convert-pneumonia-model-with-tensorflow-lite",
+  "pathwayId": "tensorflow-pneumonia",
   "error": [],
   "live": true,
   "private": true,
