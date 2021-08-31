@@ -1,0 +1,118 @@
+{
+  "private": false,
+  "title": "Introduction: Deploying a Sample Application with Cassandra in Kubernetes",
+  "description": "See how to deploy the Spring Pet Clinic Example on Kubernetes",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "kind-config.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "ingress-config.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "petclinic.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "config-values.yaml",
+          "target": "/root"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Deploy K8ssandra and the Pet Clinic app",
+        "text": "step1.md"
+      },
+      {
+        "title": "The Pet Clinic app",
+        "text": "step2.md"
+      },
+      {
+        "title": "Monitoring with Prometheus",
+        "text": "step3.md"
+      },
+      {
+        "title": "Viewing metrics with Grafana",
+        "text": "step4.md"
+      },
+      {
+        "title": "Manage Cassandra repair with Reaper",
+        "text": "step5.md"
+      },
+      {
+        "title": "Access Cassadra Via APIs with Stargate",
+        "text": "step6.md"
+      },
+      {
+        "title": "Let's review - Question 1 of 7",
+        "text": "review1.md"
+      },
+      {
+        "title": "Let's review - Question 2 of 7",
+        "text": "review2.md"
+      },
+      {
+        "title": "Let's review - Question 3 of 7",
+        "text": "review3.md"
+      },
+      {
+        "title": "Let's review - Question 4 of 7",
+        "text": "review4.md"
+      },
+      {
+        "title": "Let's review - Question 5 of 7",
+        "text": "review5.md"
+      },
+      {
+        "title": "Let's review - Question 6 of 7",
+        "text": "review6.md"
+      },
+      {
+        "title": "Let's review - Question 7 of 7",
+        "text": "review7.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-v1",
+    "uieditorpath": "/root",
+    "uidependencies": [
+      "/socket.io/socket.io.js",
+      "/javascripts/term.js",
+      "/javascripts/terminal-application.js"
+    ]
+  },
+  "backend": {
+    "imageid": "datastax-oss-cassandra",
+    "dockerimage": "datastax-oss-cassandra",
+    "backendTarget": "server"
+  },
+  "id": "cassandra-ops-k8s-intro",
+  "pathwayTitle": "testdatastax",
+  "pathwayId": "testdatastax",
+  "katacoda": {
+    "featureFlags": {
+      "scripts": "v2"
+    }
+  },
+}
