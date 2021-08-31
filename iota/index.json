@@ -1,0 +1,56 @@
+{
+  "pathwayTitle": "jason-kane",
+  "title": "Convert a TensorFlow Pneumonia Classifier to TensorFlow Lite with Quantization",
+  "description": "Learn how to quantize your model without losing precision",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Quantize Weights Using TensorFlow Lite's Converter",
+        "text": "step1.md"
+      },
+      {
+        "title": "Quantize Weights and Activations Using TensorFlow Lite's Converter",
+        "text": "step2.md"
+      },
+      {
+        "title": "Test the TensorFlow Lite Model Using the Python Interpreter",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-v1",
+    "uidependencies": [
+      "/socket.io/socket.io.js",
+      "/javascripts/term.js",
+      "/javascripts/terminal-application.js"
+    ]
+  },
+  "backend": {
+    "imageid": "python:3.8",
+    "dockerimage": "python:3.8",
+    "backendTarget": "client"
+  },
+  "gitBased": true,
+  "id": "getting-started-tensorflow-lite/convert-pneumonia-model-with-tensorflow-lite",
+  "pathwayId": "jason-kane",
+  "error": [],
+  "live": true,
+  "private": true,
+  "noindex": true,
+  "authenticated": false,
+  "katacoda": {
+    "featureFlags": {
+      "scripts": "v2"
+    }
+  },
+}
