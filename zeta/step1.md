@@ -19,10 +19,27 @@ Run a native PowerShell command
 `Get-Process`{{execute}}
 
 
-Run a host command
+Match against a regular expression
 
-`ping localhost`{{execute}}
+`"Hello World" -match "H.*World"`{{execute}}
 
+
+More fancy stuff
+
+`$animal = "Cat"
+if($animal -match "Goat")
+{
+    "Kid"
+}
+elseif($animal -match "Cat")
+{
+    "Kitten"
+}
+else
+{
+    "Alien"
+}
+`{{execute}}
 
 ## When you're done
 
