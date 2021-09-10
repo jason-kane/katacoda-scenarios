@@ -30,12 +30,10 @@ More fancy stuff
 if($animal -match "Goat")
 {
     "Kid"
-}
-elseif($animal -match "Cat")
+} elseif($animal -match "Cat")
 {
     "Kitten"
-}
-else
+} else
 {
     "Alien"
 }
