@@ -1,0 +1,42 @@
+{
+    "id": "playground",
+    "pathwayId": "powershell",
+    "pathwayTitle": "powershell",
+    "icon": "",
+    "title": "Powershell Sandbox",
+    "description": "Explore Powershell in a sandboxed environment",
+    "authenticated": false,
+    "details": {
+        "steps": [
+            {
+                "title": "Hello World",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md"
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "hideintro": false,
+        "hidefinish": false,
+        "hidesidebar": false,
+        "uilayout": "vscode-terminal-split",
+        "uimessage1": "\u001b[32mWelcome to Powershell.\u001b[m\r\n",
+        "uidependencies": [
+            "/socket.io/socket.io.js",
+            "/javascripts/term.js",
+            "/js/vendor/ace/ace.js",
+            "/js/editor.js",
+            "/javascripts/terminal-application.js",
+            "/javascripts/editor-terminal-application.js",
+            "/javascripts/sync-editor-to-container.js"
+        ]
+    },
+    "backend": {
+        "imageid": "powershell:7.1.3"
+    }
+}
