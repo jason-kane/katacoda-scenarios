@@ -5,7 +5,7 @@ networking:
 containerdConfigPatches:
   - |-
     [plugins."io.containerd.grpc.v1.cri".registry.mirrors."docker.io"]
-       endpoint = ["http://docker-registry-mirror.katacoda.com/"]
+       endpoint = ["http://docker-registry-mirror.katacoda.com"]
 nodes:
 - role: control-plane
   kubeadmConfigPatches:
