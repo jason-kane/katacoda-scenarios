@@ -1,0 +1,136 @@
+{
+  "private": false,
+  "title": "Monitoring with Prometheus and Grafana",
+  "description": "Learn to monitor Cassandra with Prometheus",
+  "difficulty": "Intermediate",
+  "time": "20 minutes",
+  "details": {
+    "assets": {
+      "host01": [
+        {
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        },
+        {
+          "file": "cassandra-cluster.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "kind-config.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "storageclass-kind.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "prom_service_monitor.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "petclinic_service_monitor.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "graf_datasource.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "dashboards_configmap.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "petclinic_dashboard.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "petclinic.yaml",
+          "target": "/root"
+        },
+        {
+          "file": "config-values.yaml",
+          "target": "/root"
+        }
+      ]
+    },
+    "steps": [
+      {
+        "title": "Install Cassandra and the PetClinic App",
+        "text": "step1.md"
+      },
+      {
+        "title": "Install Prometheus and Grafana",
+        "text": "step2.md"
+      },
+      {
+        "title": "Configure Prometheus to Monitor Cassandra",
+        "text": "step3.md"
+      },
+      {
+        "title": "Configure the Cassandra Grafana Dashboards",
+        "text": "step4.md"
+      },
+      {
+        "title": "Monitor the Pet Clinic App with Prometheus",
+        "text": "step5.md"
+      },
+      {
+        "title": "View the Pet Clinic App Metrics",
+        "text": "step6.md"
+      },
+      {
+        "title": "Let's review - Question 1 of 3",
+        "text": "review1.md"
+      },
+      {
+        "title": "Let's review - Question 2 of 3",
+        "text": "review2.md"
+      },
+      {
+        "title": "Let's review - Question 3 of 3",
+        "text": "review3.md"
+      }
+    ],
+    "intro": {
+      "courseData": "background.sh",
+      "code": "foreground.sh",
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal-v1",
+    "uidependencies": [
+      "/socket.io/socket.io.js",
+      "/javascripts/term.js",
+      "/js/vendor/ace/ace.js",
+      "/js/editor.js",
+      "/javascripts/terminal-application.js",
+      "/javascripts/editor-terminal-application.js",
+      "/javascripts/sync-editor-to-container.js"
+    ]
+  },
+  "backend": {
+    "imageid": "datastax-oss-cassandra",
+    "dockerimage": "datastax-oss-cassandra",
+    "backendTarget": "server"
+  },
+  "gitBased": true,
+  "id": "cassandra-ops-k8s/cassandra-ops-prometheus-grafana",
+  "pathwayTitle": "datastax",
+  "pathwayId": "datastax",
+  "error": [],
+  "live": true,
+  "noindex": false,
+  "authenticated": false,
+  "katacoda": {
+    "featureFlags": {
+      "scripts": "v2"
+    }
+  },
+  "lastUpdated": "2021-09-15T07:57:13.756Z",
+  "gitCommit": "43de61c50470daf3bc6197ed2a81e83ad322a6b0"
+}

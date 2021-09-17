@@ -1,0 +1,21 @@
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: petclinic-servicemonitor
+  # Change this to the namespace the Prometheus instance is running in
+  # namespace: default
+  labels:
+    app: petclinic-servicemonitor
+    release: monitoring
+spec:
+  selector:
+    matchLabels:
+      app: petclinic-backend
+  endpoints:
+  - port: prometheus-port
+    interval: 15s
+    path: /actuator/prometheus
+    scheme: http
+    scrapeTimeout: 15s
+    targetPort: 9967
